@@ -11,7 +11,7 @@ const Movies = () => {
               <strong> Name: {movie.title} </strong>
               <p>Time: {movie.time}</p><br></br>
               <ul>
-                {movie.genres.map((genre) {
+                {movie.genres.map(function(genre) {
                   return <li>{genre}</li>
                 })}
               </ul>
