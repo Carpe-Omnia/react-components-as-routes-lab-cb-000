@@ -13,7 +13,8 @@ import Movies from '../components/Movies';
 const App = (props) => {
   return (
     <Router>
-      {/*{code here}*/}
+      <React.Fragment >
+      </React.Fragment > 
     </Router>
   );
 };
