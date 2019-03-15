@@ -4,7 +4,7 @@ import { actors } from '../data';
 const Actors = () => {
   return (
     <div>
-      {/*{code here}*/}
+      <h1>This is an actor</h1>
     </div>
   );
 };
