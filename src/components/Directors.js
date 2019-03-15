@@ -9,7 +9,7 @@ const Directors = () => {
         return (
           <div>
             <h3>Name: {director.name}</h3>
-            <ul>
+            Movies: <ul>
               {director.movies.map(function(movie){
                 return(
                   <li>{movie}</li>
