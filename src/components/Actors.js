@@ -11,9 +11,7 @@ const Actors = () => {
             {actor.name}
             <ul>
               {actor.movies.map(function(movie){
-                return(
-                  <li>{movie}</li>
-                )
+                return(<li>{movie}</li>)
               })}
             </ul>
           </div>
