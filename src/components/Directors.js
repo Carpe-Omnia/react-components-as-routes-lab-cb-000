@@ -10,11 +10,11 @@ const Directors = () => {
           <div>
             <h3>{director.name}</h3>
             <ul>
-            {director.movies.map(function(movie){
-              return(
-                <li>{movie}</li>
-              )
-            })}
+              {director.movies.map(function(movie){
+                return(
+                  <li>{movie}</li>
+                )
+              })}
             </ul>
           </div>
         )
