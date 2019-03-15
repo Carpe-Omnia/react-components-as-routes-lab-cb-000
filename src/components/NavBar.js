@@ -9,7 +9,7 @@ const NavBar = () => {
         <li><NavLink to="/movies" >Movies</NavLink></li>
         <li><NavLink to="/directors" >Directors</NavLink></li>
         <li><NavLink to="/actors" >Actors</NavLink></li>
-      </ul>  
+      </ul>
     </div>
   );
 };
