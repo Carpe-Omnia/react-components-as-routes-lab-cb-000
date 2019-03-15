@@ -4,7 +4,7 @@ import { directors } from '../data';
 const Directors = () => {
   return (
     <div>
-      <h1>this is a director</h1>
+      <h1>they is a director</h1>
     </div>
   );
 }
