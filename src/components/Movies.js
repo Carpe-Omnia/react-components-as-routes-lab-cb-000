@@ -10,7 +10,7 @@ const Movies = () => {
             <div>
               <strong> Name: {movie.title} </strong>
               <p>Time: {movie.time}</p>
-              <ul>
+              Movies:<ul>
                 {movie.genres.map(function(genre) {
                   return (
                     <li>{genre}</li>
