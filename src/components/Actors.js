@@ -4,7 +4,7 @@ import { actors } from '../data';
 const Actors = () => {
   return (
     <div>
-      <h1>This is an actor</h1>
+      <h1>Actors Page</h1>
     </div>
   );
 };
